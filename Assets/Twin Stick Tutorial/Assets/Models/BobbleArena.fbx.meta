@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 4aeb3701b745f2d469caf71a42846a71
+timeCreated: 1481904673
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder.002
+    100004: Cylinder.003
+    100006: Cylinder.004
+    100008: Cylinder.005
+    100010: Cylinder.006
+    100012: Cylinder.007
+    100014: Cylinder.008
+    100016: Cylinder.009
+    100018: Door Ring
+    100020: Door Ring Bottom
+    100022: Elevator main post
+    100024: Elevator Platform
+    100026: Floor Piece
+    100028: Floor Piece.001
+    100030: Floor Piece.002
+    100032: Floor Piece.003
+    100034: Glass Floor
+    100036: Inner Octagon
+    100038: Outer Octagon
+    100040: Outer Wall.001
+    100042: Outer Wall.002
+    100044: Outer Wall.003
+    100046: Outer Wall.004
+    100048: Outer Wall.005
+    100050: Outer Wall.006
+    100052: Outer Wall.007
+    100054: Outer Wall.008
+    400000: //RootNode
+    400002: Cylinder.002
+    400004: Cylinder.003
+    400006: Cylinder.004
+    400008: Cylinder.005
+    400010: Cylinder.006
+    400012: Cylinder.007
+    400014: Cylinder.008
+    400016: Cylinder.009
+    400018: Door Ring
+    400020: Door Ring Bottom
+    400022: Elevator main post
+    400024: Elevator Platform
+    400026: Floor Piece
+    400028: Floor Piece.001
+    400030: Floor Piece.002
+    400032: Floor Piece.003
+    400034: Glass Floor
+    400036: Inner Octagon
+    400038: Outer Octagon
+    400040: Outer Wall.001
+    400042: Outer Wall.002
+    400044: Outer Wall.003
+    400046: Outer Wall.004
+    400048: Outer Wall.005
+    400050: Outer Wall.006
+    400052: Outer Wall.007
+    400054: Outer Wall.008
+    2300000: Cylinder.002
+    2300002: Cylinder.003
+    2300004: Cylinder.004
+    2300006: Cylinder.005
+    2300008: Cylinder.006
+    2300010: Cylinder.007
+    2300012: Cylinder.008
+    2300014: Cylinder.009
+    2300016: Door Ring
+    2300018: Door Ring Bottom
+    2300020: Elevator main post
+    2300022: Elevator Platform
+    2300024: Floor Piece
+    2300026: Floor Piece.001
+    2300028: Floor Piece.002
+    2300030: Floor Piece.003
+    2300032: Glass Floor
+    2300034: Inner Octagon
+    2300036: Outer Octagon
+    2300038: Outer Wall.001
+    2300040: Outer Wall.002
+    2300042: Outer Wall.003
+    2300044: Outer Wall.004
+    2300046: Outer Wall.005
+    2300048: Outer Wall.006
+    2300050: Outer Wall.007
+    2300052: Outer Wall.008
+    3300000: Cylinder.002
+    3300002: Cylinder.003
+    3300004: Cylinder.004
+    3300006: Cylinder.005
+    3300008: Cylinder.006
+    3300010: Cylinder.007
+    3300012: Cylinder.008
+    3300014: Cylinder.009
+    3300016: Door Ring
+    3300018: Door Ring Bottom
+    3300020: Elevator main post
+    3300022: Elevator Platform
+    3300024: Floor Piece
+    3300026: Floor Piece.001
+    3300028: Floor Piece.002
+    3300030: Floor Piece.003
+    3300032: Glass Floor
+    3300034: Inner Octagon
+    3300036: Outer Octagon
+    3300038: Outer Wall.001
+    3300040: Outer Wall.002
+    3300042: Outer Wall.003
+    3300044: Outer Wall.004
+    3300046: Outer Wall.005
+    3300048: Outer Wall.006
+    3300050: Outer Wall.007
+    3300052: Outer Wall.008
+    4300000: Floor Piece.002
+    4300002: Glass Floor
+    4300004: Outer Wall.008
+    4300006: Outer Octagon
+    4300008: Inner Octagon
+    4300010: Elevator Platform
+    4300012: Elevator main post
+    4300014: Door Ring Bottom
+    4300016: Door Ring
+    4300018: Cylinder.009
+    7400000: ElevatorSummon
+    7400002: Elevator Platform|Elevator PlatformAction
+    7400004: Elevator Platform|Exit - Open
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ElevatorSummon
+      takeName: Elevator Platform|Elevator - Arrive
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Cylinder.006
+        weight: 1
+      - path: Cylinder.007
+        weight: 1
+      - path: Cylinder.008
+        weight: 1
+      - path: Cylinder.009
+        weight: 1
+      - path: Door Ring
+        weight: 1
+      - path: Door Ring Bottom
+        weight: 1
+      - path: Elevator Platform
+        weight: 1
+      - path: Elevator Platform/Elevator main post
+        weight: 1
+      - path: Floor Piece
+        weight: 1
+      - path: Floor Piece.001
+        weight: 1
+      - path: Floor Piece.002
+        weight: 1
+      - path: Floor Piece.003
+        weight: 1
+      - path: Glass Floor
+        weight: 1
+      - path: Inner Octagon
+        weight: 1
+      - path: Outer Octagon
+        weight: 1
+      - path: Outer Wall.001
+        weight: 1
+      - path: Outer Wall.002
+        weight: 1
+      - path: Outer Wall.003
+        weight: 1
+      - path: Outer Wall.004
+        weight: 1
+      - path: Outer Wall.005
+        weight: 1
+      - path: Outer Wall.006
+        weight: 1
+      - path: Outer Wall.007
+        weight: 1
+      - path: Outer Wall.008
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator Platform|Elevator PlatformAction
+      takeName: Elevator Platform|Elevator PlatformAction
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Cylinder.006
+        weight: 1
+      - path: Cylinder.007
+        weight: 1
+      - path: Cylinder.008
+        weight: 1
+      - path: Cylinder.009
+        weight: 1
+      - path: Door Ring
+        weight: 1
+      - path: Door Ring Bottom
+        weight: 1
+      - path: Elevator Platform
+        weight: 1
+      - path: Elevator Platform/Elevator main post
+        weight: 1
+      - path: Floor Piece
+        weight: 1
+      - path: Floor Piece.001
+        weight: 1
+      - path: Floor Piece.002
+        weight: 1
+      - path: Floor Piece.003
+        weight: 1
+      - path: Glass Floor
+        weight: 1
+      - path: Inner Octagon
+        weight: 1
+      - path: Outer Octagon
+        weight: 1
+      - path: Outer Wall.001
+        weight: 1
+      - path: Outer Wall.002
+        weight: 1
+      - path: Outer Wall.003
+        weight: 1
+      - path: Outer Wall.004
+        weight: 1
+      - path: Outer Wall.005
+        weight: 1
+      - path: Outer Wall.006
+        weight: 1
+      - path: Outer Wall.007
+        weight: 1
+      - path: Outer Wall.008
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator Platform|Exit - Open
+      takeName: Elevator Platform|Exit - Open
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder.002
+        weight: 1
+      - path: Cylinder.003
+        weight: 1
+      - path: Cylinder.004
+        weight: 1
+      - path: Cylinder.005
+        weight: 1
+      - path: Cylinder.006
+        weight: 1
+      - path: Cylinder.007
+        weight: 1
+      - path: Cylinder.008
+        weight: 1
+      - path: Cylinder.009
+        weight: 1
+      - path: Door Ring
+        weight: 1
+      - path: Door Ring Bottom
+        weight: 1
+      - path: Elevator Platform
+        weight: 1
+      - path: Elevator Platform/Elevator main post
+        weight: 1
+      - path: Floor Piece
+        weight: 1
+      - path: Floor Piece.001
+        weight: 1
+      - path: Floor Piece.002
+        weight: 1
+      - path: Floor Piece.003
+        weight: 1
+      - path: Glass Floor
+        weight: 1
+      - path: Inner Octagon
+        weight: 1
+      - path: Outer Octagon
+        weight: 1
+      - path: Outer Wall.001
+        weight: 1
+      - path: Outer Wall.002
+        weight: 1
+      - path: Outer Wall.003
+        weight: 1
+      - path: Outer Wall.004
+        weight: 1
+      - path: Outer Wall.005
+        weight: 1
+      - path: Outer Wall.006
+        weight: 1
+      - path: Outer Wall.007
+        weight: 1
+      - path: Outer Wall.008
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
