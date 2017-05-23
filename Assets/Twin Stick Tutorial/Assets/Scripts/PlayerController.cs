@@ -12,6 +12,11 @@ public class PlayerController : NetworkBehaviour
 
     CharacterController characterController;
 
+    void Awake()
+    {
+        characterController = GetComponent<CharacterController>();
+    }
+
     public override void OnStartLocalPlayer()
     {
         CameraMovement cMove = Camera.main.transform.parent.GetComponent<CameraMovement>();
@@ -23,23 +28,20 @@ public class PlayerController : NetworkBehaviour
         if (!isLocalPlayer)
             return;
 
-        Vector3 pos = transform.position;
-        pos.x += Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        pos.z += Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-        transform.position = pos;
+        Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        characterController.SimpleMove(moveDirection * moveSpeed);
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
-            // if (!IsInvoking("Shoot"))
-            // {
-            //     InvokeRepeating("Shoot", 0f, 0.1f);
-            // }
+            if (!IsInvoking("Shoot"))
+            {
+                InvokeRepeating("Shoot", 0f, 0.1f);
+            }
         }
-        // if (Input.GetButtonUp("Fire1"))
-        // {
-        //     CancelInvoke("Shoot");
-        // }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            CancelInvoke("Shoot");
+        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 1000, Color.green);
@@ -59,8 +61,7 @@ public class PlayerController : NetworkBehaviour
         GameObject bullet = Instantiate(bulletPrefab) as GameObject;
         bullet.transform.position = launchPosition.position;
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * 100;
-        // NetworkServer.Spawn(bullet, bulletPrefab.GetComponent<NetworkIdentity>().assetId);
-        NetworkServer.Spawn(bullet);
+        NetworkServer.Spawn(bullet, bulletPrefab.GetComponent<NetworkIdentity>().assetId);
     }
 
     void Shoot()
