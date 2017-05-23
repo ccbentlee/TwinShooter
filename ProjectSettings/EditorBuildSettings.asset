@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Twin Stick Tutorial/Assets/Scenes/Intro.unity
+    guid: 2b1999f4ec439416eb081181f56358c8
+  - enabled: 1
+    path: Assets/Twin Stick Tutorial/Assets/Scenes/Main.unity
+    guid: 00000000000000000000000000000000
