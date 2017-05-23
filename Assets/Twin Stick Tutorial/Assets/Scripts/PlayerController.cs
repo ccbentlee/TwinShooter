@@ -17,7 +17,7 @@ public class PlayerController : NetworkBehaviour
         CameraMovement cMove = Camera.main.transform.parent.GetComponent<CameraMovement>();
         cMove.followTarget = gameObject;
     }
-	
+
     void Update()
     {
         if (!isLocalPlayer)
@@ -52,10 +52,17 @@ public class PlayerController : NetworkBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
     }
 
-    void Shoot()
+    [CommandAttribute]
+    void CmdShoot()
     {
         GameObject bullet = Instantiate(bulletPrefab) as GameObject;
         bullet.transform.position = launchPosition.position;
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * 100;
+        NetworkServer.Spawn(bullet, bulletPrefab.GetComponent<NetworkIdentity>().assetId);
+    }
+
+    void Shoot()
+    {
+        CmdShoot();
     }
 }
