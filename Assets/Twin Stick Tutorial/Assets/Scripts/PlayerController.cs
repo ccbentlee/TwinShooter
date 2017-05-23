@@ -30,15 +30,16 @@ public class PlayerController : NetworkBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            if (!IsInvoking("Shoot"))
-            {
-                InvokeRepeating("Shoot", 0f, 0.1f);
-            }
+            Shoot();
+            // if (!IsInvoking("Shoot"))
+            // {
+            //     InvokeRepeating("Shoot", 0f, 0.1f);
+            // }
         }
-        if (Input.GetButtonUp("Fire1"))
-        {
-            CancelInvoke("Shoot");
-        }
+        // if (Input.GetButtonUp("Fire1"))
+        // {
+        //     CancelInvoke("Shoot");
+        // }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 1000, Color.green);
@@ -58,7 +59,8 @@ public class PlayerController : NetworkBehaviour
         GameObject bullet = Instantiate(bulletPrefab) as GameObject;
         bullet.transform.position = launchPosition.position;
         bullet.GetComponent<Rigidbody>().velocity = transform.forward * 100;
-        NetworkServer.Spawn(bullet, bulletPrefab.GetComponent<NetworkIdentity>().assetId);
+        // NetworkServer.Spawn(bullet, bulletPrefab.GetComponent<NetworkIdentity>().assetId);
+        NetworkServer.Spawn(bullet);
     }
 
     void Shoot()
